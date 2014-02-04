@@ -46,6 +46,10 @@
   width: 80%;
 }
 
+.col1of10 {
+  width: 10%;
+}
+
 .lastUnit {
   width: auto;
   display: table-cell;
