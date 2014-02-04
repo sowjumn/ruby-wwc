@@ -15,6 +15,11 @@
   margin: 0 auto;
 }
 
+.main-content {
+  width: 1020px;
+  height: 815px;
+}
+
 #header {
   min-height: 130px;
 }
@@ -25,7 +30,7 @@
 }
 
 #tagline h1 {
-  color: #ff0029;
+  color: #2e5FA8;
 }
 
 #wwc-pic {
@@ -43,7 +48,21 @@
   padding-left: 20px;
 }
 
-.main-content {
-  width: 1020px;
-  height: 815px;
+.indi-box {
+  margin: 20px;
 }
+
+.team img {
+  width: 130px;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  border-radius: 90px;
+  -webkit-box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+  box-shadow: 3px 3px 3px #777;
+}
+
+.team {
+  margin-top: 20px;
+}
+
