@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+group :development, :test do
+  gem 'dotenv-rails'
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 gem 'pg'
@@ -13,8 +17,10 @@ group :doc do
 end
 
 group :production do
-	gem 'rails_12factor'
+  gem 'rails_12factor'
 end
+
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

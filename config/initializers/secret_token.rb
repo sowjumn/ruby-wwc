@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-RubyWwc::Application.config.secret_key_base = 'acc3a2ec9db416c8db852cd37c9557e1c0c0e850efcdc7a79f91ff3ddca5c0ab37bd1b717b7c5d2dd68c89923874d010d3c8f8506fea31f9233b732d38db5020'
+RubyWwc::Application.config.secret_key_base = ENV['SECRET_KEY_BASE']
