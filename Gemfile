@@ -1,7 +1,19 @@
 source 'https://rubygems.org'
 
+ruby '2.1.0'
+
 group :development, :test do
   gem 'dotenv-rails'
+  gem 'rspec-rails'
+  gem 'awesome_print'
+end
+
+group :test do
+  gem 'selenium-webdriver'
+  gem 'capybara'
+  gem 'factory_girl_rails'
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
